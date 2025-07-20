@@ -1,83 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Enhanced HTML Page</title>
+    <meta charset="utf-8">
+    <title>Alex Rivera - Personal Portfolio</title>
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Alex Rivera</h1>
+        <p>Full-Stack Developer & Digital Innovation Specialist</p>
     </header>
-    
-    <main>
-        <article>
-            <h1>Welcome to My Website</h1>
-            
-            <p>This is the first paragraph of my enhanced HTML page. Here I'm introducing the purpose of this website and providing some context for visitors who arrive at this page.</p>
-            
-            <h2>About This Project</h2>
-            
-            <p>In this second paragraph, I'm explaining more details about the project. This section provides background information and helps visitors understand what they can expect to find on this website.</p>
-            
-            <h3>Technical Details</h3>
-            
-            <p>The third paragraph focuses on the technical aspects of this HTML page. We're using proper HTML5 structure with semantic elements, appropriate headings hierarchy, and valid markup that passes W3C validation standards.</p>
-            
-            <h3>Features Included</h3>
-            
-            <p>This fourth paragraph highlights the specific features that have been implemented on this page, including multiple heading levels, structured paragraphs, and interactive elements like the clickable image below.</p>
-            
-            <h2>ALX Program</h2>
-            
-            <a href="https://www.alxafrica.com/">
-                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Africa Logo">
-            </a>
-            
-            <h2>Our Learners</h2>
-            
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Country</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John</td>
-                        <td>25</td>
-                        <td>USA</td>
-                    </tr>
-                    <tr>
-                        <td>Emily</td>
-                        <td>28</td>
-                        <td>Canada</td>
-                    </tr>
-                    <tr>
-                        <td>Michael</td>
-                        <td>32</td>
-                        <td>Australia</td>
-                    </tr>
-                    <tr>
-                        <td>Sophia</td>
-                        <td>21</td>
-                        <td>UK</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to my personal portfolio! I'm a passionate full-stack developer with over 5 years of experience creating innovative web applications and digital solutions. I specialize in modern JavaScript frameworks, responsive design, and user-centered development approaches. My goal is to build technology that makes a positive impact on people's lives while solving real-world problems through clean, efficient code.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
         
-        <aside>
-            <p>placeholder to add comment thread later</p>
-        </aside>
-    </main>
-    
+        <article class="project">
+            <h3>E-Commerce Platform</h3>
+            <p>A fully responsive e-commerce solution built with React and Node.js, featuring real-time inventory management, secure payment processing with Stripe integration, and an admin dashboard for order management. The platform handles over 10,000 monthly transactions.</p>
+            <a href="https://github.com/alexrivera/ecommerce-platform" target="_blank">View Project</a>
+        </article>
+
+        <article class="project">
+            <h3>Task Management Application</h3>
+            <p>A collaborative task management tool designed for remote teams, built with Vue.js and Firebase. Features include real-time collaboration, drag-and-drop task organization, team analytics, and integration with popular productivity tools like Slack and Trello.</p>
+            <a href="https://github.com/alexrivera/task-manager" target="_blank">View Project</a>
+        </article>
+
+        <article class="project">
+            <h3>Weather Analytics Dashboard</h3>
+            <p>An interactive weather data visualization dashboard that aggregates data from multiple APIs to provide comprehensive weather insights. Built with D3.js and Python Flask backend, featuring predictive analytics and customizable data visualizations.</p>
+            <a href="https://github.com/alexrivera/weather-dashboard" target="_blank">View Project</a>
+        </article>
+
+        <article class="project">
+            <h3>Mobile Fitness Tracker</h3>
+            <p>A React Native mobile application for fitness tracking with GPS integration, workout planning, and social features. Includes calorie tracking, progress visualization, and integration with popular fitness devices and health apps.</p>
+            <a href="https://github.com/alexrivera/fitness-tracker" target="_blank">View Project</a>
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a dedicated software developer based in San Francisco, California, with a strong foundation in computer science and a passion for continuous learning. I graduated from UC Berkeley with a degree in Computer Science and have since worked with various startups and established companies to deliver high-quality software solutions.</p>
+        
+        <p>My technical expertise spans across multiple programming languages and frameworks including JavaScript, Python, React, Vue.js, Node.js, and cloud technologies like AWS and Google Cloud Platform. I'm particularly interested in creating accessible, user-friendly applications that solve real problems.</p>
+        
+        <p>When I'm not coding, I enjoy hiking in the Bay Area mountains, experimenting with new coffee brewing methods, reading about emerging technologies, and contributing to open-source projects. I'm also passionate about mentoring junior developers and frequently speak at local tech meetups about web development best practices.</p>
+        
+        <p>Skills and Technologies:</p>
+        <ul>
+            <li>Frontend: HTML5, CSS3, JavaScript, React, Vue.js, Angular</li>
+            <li>Backend: Node.js, Python, Django, Flask, Express.js</li>
+            <li>Databases: MongoDB, PostgreSQL, MySQL, Redis</li>
+            <li>Cloud & DevOps: AWS, Google Cloud, Docker, Kubernetes</li>
+            <li>Tools: Git, VS Code, Figma, Postman, Jest</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>I'm always interested in discussing new opportunities, collaborating on exciting projects, or simply connecting with fellow developers. Feel free to reach out through any of the following channels:</p>
+        
+        <p>Email: <a href="mailto:alex.rivera@example.com">alex.rivera@example.com</a></p>
+        
+        <p>Professional Profiles:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/alexrivera" target="_blank">LinkedIn Profile</a></li>
+            <li><a href="https://github.com/alexrivera" target="_blank">GitHub Profile</a></li>
+        </ul>
+        
+        <p>I typically respond to emails within 24 hours and am available for freelance projects, full-time opportunities, or technical consulting work.</p>
+    </section>
+
     <footer>
-        <p>Made by Alex Rivera - <a href="https://github.com/alexrivera" target="_blank">here</a></p>
+        <p>&copy; 2024 Alex Rivera</p>
     </footer>
 </body>
 </html>
